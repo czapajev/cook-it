@@ -1,0 +1,58 @@
+body {
+
+	width: 806px;
+	margin: 0 auto;
+}
+#control {
+	width: 200px;
+	height: 400px;
+	float: left;
+}
+#widget {
+	width: 804px;
+	height: 404px;
+	overflow: auto;
+	border: 1px solid black;
+}
+#command {
+	width: 200px;
+	height: 100px;
+}
+#display {
+	width: 600px;
+	height: 400px;
+	float: left;
+	border: 1px dashed black;
+}
+#message {
+	height: 16%;
+	width: 16%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	background-color: #ffff80;
+	position: absolute;
+	display:none;
+	top: 42%;
+	left: 42%;
+	padding: 15px;
+	border: 2px maroon solid;
+	min-width:200px;
+	min-height: 100px;
+}
+h2 {
+	display: none;
+}
+#commentSet {
+	display: none;
+}
+#result {
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 350px;
+	border: 1px solid black;
+	padding: 10px;
+	font-family: Tahoma;
+	font-size: 10px;
+	overflow: auto;
+}
